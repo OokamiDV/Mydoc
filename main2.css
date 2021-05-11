@@ -1,0 +1,32 @@
+body{
+    background-image: url(media/fone3.png);
+    background-size: 100%;
+    background-color: rgb(6, 7, 7);
+    }
+.hideImg{
+    position: absolute;
+        top: 35%;
+        left: 35%;
+        border: 3px solid #e8f721ee;
+}
+
+.showButton{
+    position: absolute;
+        top: 6%;
+        left: 45%;
+        background-color:rgb(222, 236, 25);
+        color:  rgb(105, 2, 11);
+        font-family: 'Courier New', Courier, monospace;
+        border: 2px solid #5e0514ee;
+        font-weight:bold;
+        font-size:15px;
+        border-radius:12px;
+        box-shadow:orange;
+        padding: 10px 5px;
+        cursor: pointer;
+}
+.showButton:hover {
+    background-color: #b31515d7; 
+    color: rgb(32, 12, 143);
+    box-shadow: 0 12px 16px 0 rgba(228, 41, 57, 0.918), 0 17px 50px 0 rgba(189, 177, 177, 0.19);
+}
