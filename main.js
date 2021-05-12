@@ -37,14 +37,14 @@ function sco(){
     slaid.hidden = false;
     setTimeout(() => {
         slaid.hidden = true;
-    }, 600);
+    }, 800);
     
 
 
 document.querySelector('.slaid').animate([
     { transform: 'translate3D(1500px, 0, 0)' }
   ], {
-    duration: 700,
+    duration: 800,
 
   })
 }
