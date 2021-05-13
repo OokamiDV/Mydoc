@@ -14,7 +14,7 @@ let click = 0;
 
 function toasty(){
     toastyImg.hidden = false;
-    //audioToasty.play();
+    audioToasty.play();
     setTimeout(() => {
         toastyImg.hidden = true;
     }, 1000);
@@ -23,10 +23,11 @@ function toasty(){
 
 buttonToasty.onclick = function(){
 click++;
+if (click<=5){
     toasty();
-
+}
     if (click==5){
-        //audioSco.play();
+        audioSco.play();
         sco() ;
     }
 }
@@ -55,5 +56,6 @@ document.querySelector('.logotop').animate([
   })
 
 
+ 
 
 
