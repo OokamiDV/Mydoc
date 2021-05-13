@@ -23,9 +23,16 @@ function toasty(){
 
 buttonToasty.onclick = function(){
 click++;
+<<<<<<< HEAD
 if (click<=5){
     toasty();
 }
+=======
+    
+    if (click<=5){
+    toasty();
+    }
+>>>>>>> a6cc257780b39ee9b04499c81800e4f299496893
     if (click==5){
         audioSco.play();
         sco() ;
@@ -36,14 +43,14 @@ function sco(){
     slaid.hidden = false;
     setTimeout(() => {
         slaid.hidden = true;
-    }, 600);
+    }, 800);
     
 
 
 document.querySelector('.slaid').animate([
     { transform: 'translate3D(1500px, 0, 0)' }
   ], {
-    duration: 700,
+    duration: 800,
 
   })
 }
