@@ -23,16 +23,15 @@ function toasty(){
 
 buttonToasty.onclick = function(){
 click++;
-<<<<<<< HEAD
+
 if (click<=5){
     toasty();
 }
-=======
+
     
     if (click<=5){
     toasty();
     }
->>>>>>> a6cc257780b39ee9b04499c81800e4f299496893
     if (click==5){
         audioSco.play();
         sco() ;
@@ -63,7 +62,7 @@ document.querySelector('.logotop').animate([
   })
 
 
-  //test string
+ 
 
 
  
